@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="https://echo.free.beeceptor.com" method="POST" id="testform">
+        <p>
+            <label for="first name">First name</label>
+    <input type="text" id="first name" name="first_name" placeholder="Enter first name"/>
+        </p>
+    <p>
+        <label for="last name">Last name</label>
+    <input type="text" id="last name" name="last_name" placeholder="Enter last name"/>
+    </p>
+    <p>
+        <label for="email">Email</label>
+    <input type="email" name="User_email" id="email" placeholder="email"/>
+    </p>
+    <p>
+        <label for="message">Massage</label>
+    <textarea name="Message" id="Message" cols="30" rows="10" maxlength="600"></textarea>
+    </p>
+    <p>
+    <label for="Gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="-" disabled>Chouse gender</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+        </p>
+          <p>
+            <label for="age">Age</label>
+          <input type="number" name="age" id="age" min="0" max="150" />
+          </p>
+          <label for="date">Birthday</label>
+          <input type="date" id="birthday" name="date"/>
+          <p>
+          <button type="submit">Submit</button>
+          </p>
+    </form>
+    <a href="./indexx.html">Form two</a>
+</body>
+</html>
